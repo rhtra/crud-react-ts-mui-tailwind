@@ -68,8 +68,8 @@ src/
 
 ### 1️⃣ Clone this repository
 ```bash
-git clone https://github.com/<your-username>/react-crud-restful.git
-cd react-crud-restful
+git clone https://github.com/rhtra/crud-react-ts-mui-tailwind.git
+cd <your folder>
 2️⃣ Install dependencies
 bash
 Copy code
