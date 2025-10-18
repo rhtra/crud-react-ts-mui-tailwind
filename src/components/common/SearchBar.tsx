@@ -1,6 +1,4 @@
-import React from "react";
 import { InputBase } from "@mui/material";
-import SearchIcon from "@mui/icons-material/Search";
 
 interface SearchBarProps {
   value: string;

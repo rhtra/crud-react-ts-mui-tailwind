@@ -1,4 +1,3 @@
-import React from "react";
 import { Select, MenuItem, Button } from "@mui/material";
 
 interface FilterBarProps {

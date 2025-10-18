@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import {
   Table,
   TableBody,
@@ -160,7 +160,7 @@ export default function ItemList({ items, onEdit, onDelete, onAddClick }: Props)
 
             <TableBody>
               {filteredItems.map((item) => {
-                const disabled = isOriginalItem(item.id);
+                const disabled = !!isOriginalItem(item.id);
 
                 return (
                   <TableRow
