@@ -70,27 +70,25 @@ src/
 ```bash
 git clone https://github.com/rhtra/crud-react-ts-mui-tailwind.git
 cd <your folder>
+```
 2️⃣ Install dependencies
-bash
-Copy code
+```bash
 npm install
 ⚠️ If you see Node version warnings, ensure you’re using Node 20+.
-
+```
 3️⃣ Initialize TailwindCSS
 If not already done:
 
-bash
-Copy code
+```bash
 npx tailwindcss init -p
+```
 4️⃣ Run the app
-bash
-Copy code
+```bash
 npm run dev
+```
 Then open your browser to:
-
-arduino
-Copy code
 http://localhost:5173
+
 🧠 API Reference
 This app uses RESTful-API.dev — a free demo API that stores data in-memory.
 
@@ -120,9 +118,6 @@ Technology	Purpose
 🧩 Material UI	Components and dialogs
 🌐 RESTful-API.dev	Public CRUD backend
 🧱 Vite	Fast bundling and dev server
-
-📸 Screenshots
-Light Mode	Dark Mode
 
 🧠 Reusable Components
 Component	Description
