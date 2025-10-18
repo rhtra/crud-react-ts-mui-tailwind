@@ -33,27 +33,35 @@ This project demonstrates clean architecture, reusable UI components, theming (l
 
 ## 🧩 Project Structure
 
+```bash
 src/
 ├── components/
-│ ├── common/
-│ │ ├── ConfirmDialog.tsx
-│ │ ├── ModalWrapper.tsx
-│ │ ├── SearchBar.tsx
-│ │ ├── ThemeToggle.tsx
-│ ├── layout/
-│ │ └── Header.tsx
-│ ├── ItemForm.tsx
-│ ├── ItemList.tsx
+│   ├── common/
+│   │   ├── ConfirmDialog.tsx
+│   │   ├── ModalWrapper.tsx
+│   │   ├── SearchBar.tsx
+│   │   ├── ThemeToggle.tsx
+│   ├── layout/
+│   │   └── Header.tsx
+│   ├── ItemForm.tsx
+│   ├── ItemList.tsx
 │
 ├── hooks/
-│ └── useItems.ts # CRUD logic using RESTful-API.dev
+│   └── useItems.ts         # CRUD logic using RESTful-API.dev
+│
+├── service/
+│   └── itemService.ts      # Business logic layer wrapping API
+│
+├── api/
+│   └── restfulApi.ts       # RESTful-API.dev requests
 │
 ├── types/
-│ └── Item.ts # Type definitions
+│   └── Item.ts             # Type definitions
 │
 ├── App.tsx
 └── main.tsx
 
+```
 ---
 
 ## 🛠️ Installation & Setup
